@@ -21,7 +21,7 @@ const LoginScreen = () => {
         if (userInfo) {
             history('/mynotes')
         }
-    }, [history, userInfo])
+    }, [history, userInfo]) //dependency array
     
     
     const submitHandler = async (e) => {
